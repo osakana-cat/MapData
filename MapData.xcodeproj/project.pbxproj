@@ -13,6 +13,10 @@
 		3E3678D51C3D333E00D4837F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3678D31C3D333E00D4837F /* Main.storyboard */; };
 		3E3678D71C3D333E00D4837F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3678D61C3D333E00D4837F /* Assets.xcassets */; };
 		3E3678DA1C3D333E00D4837F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3678D81C3D333E00D4837F /* LaunchScreen.storyboard */; };
+		3E3678E51C3E974700D4837F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3678E41C3E974700D4837F /* MapViewController.m */; };
+		3E3678E81C3E97AD00D4837F /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3678E71C3E97AD00D4837F /* DataViewController.m */; };
+		3E3678EB1C40FB6E00D4837F /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3678EA1C40FB6E00D4837F /* CustomAnnotation.m */; };
+		3E3678ED1C4122AF00D4837F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3678EC1C4122AF00D4837F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		3E3678D61C3D333E00D4837F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E3678D91C3D333E00D4837F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E3678DB1C3D333E00D4837F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3678E31C3E974700D4837F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		3E3678E41C3E974700D4837F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		3E3678E61C3E97AD00D4837F /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		3E3678E71C3E97AD00D4837F /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		3E3678E91C40FB6E00D4837F /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		3E3678EA1C40FB6E00D4837F /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		3E3678EC1C4122AF00D4837F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3678ED1C4122AF00D4837F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,7 @@
 		3E3678BE1C3D333E00D4837F = {
 			isa = PBXGroup;
 			children = (
+				3E3678EC1C4122AF00D4837F /* MapKit.framework */,
 				3E3678C91C3D333E00D4837F /* MapData */,
 				3E3678C81C3D333E00D4837F /* Products */,
 			);
@@ -58,6 +71,12 @@
 		3E3678C91C3D333E00D4837F /* MapData */ = {
 			isa = PBXGroup;
 			children = (
+				3E3678E91C40FB6E00D4837F /* CustomAnnotation.h */,
+				3E3678EA1C40FB6E00D4837F /* CustomAnnotation.m */,
+				3E3678E61C3E97AD00D4837F /* DataViewController.h */,
+				3E3678E71C3E97AD00D4837F /* DataViewController.m */,
+				3E3678E31C3E974700D4837F /* MapViewController.h */,
+				3E3678E41C3E974700D4837F /* MapViewController.m */,
 				3E3678CD1C3D333E00D4837F /* AppDelegate.h */,
 				3E3678CE1C3D333E00D4837F /* AppDelegate.m */,
 				3E3678D01C3D333E00D4837F /* ViewController.h */,
@@ -152,6 +171,9 @@
 				3E3678D21C3D333E00D4837F /* ViewController.m in Sources */,
 				3E3678CF1C3D333E00D4837F /* AppDelegate.m in Sources */,
 				3E3678CC1C3D333E00D4837F /* main.m in Sources */,
+				3E3678EB1C40FB6E00D4837F /* CustomAnnotation.m in Sources */,
+				3E3678E51C3E974700D4837F /* MapViewController.m in Sources */,
+				3E3678E81C3E97AD00D4837F /* DataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
