@@ -85,7 +85,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LYG-go-3bT">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LYG-go-3bT">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -135,9 +135,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3yp-jL-rkE" firstAttribute="top" secondItem="Rng-x6-sBC" secondAttribute="bottom" constant="20" id="4L1-nF-cze"/>
+                            <constraint firstItem="LYG-go-3bT" firstAttribute="leading" secondItem="BtK-To-Ymu" secondAttribute="leading" id="I2I-ba-yMi"/>
                             <constraint firstItem="Rng-x6-sBC" firstAttribute="leading" secondItem="BtK-To-Ymu" secondAttribute="leading" constant="20" id="KlO-A0-eO9"/>
+                            <constraint firstItem="3yp-jL-rkE" firstAttribute="top" secondItem="LYG-go-3bT" secondAttribute="bottom" id="OKm-nb-Iy8"/>
                             <constraint firstItem="3yp-jL-rkE" firstAttribute="top" secondItem="TD3-vp-fwy" secondAttribute="bottom" constant="20" id="VMo-DJ-9S5"/>
                             <constraint firstAttribute="trailing" secondItem="TD3-vp-fwy" secondAttribute="trailing" constant="20" id="Y4U-fE-sD1"/>
+                            <constraint firstItem="LYG-go-3bT" firstAttribute="top" secondItem="BtK-To-Ymu" secondAttribute="top" id="ach-OG-nQh"/>
+                            <constraint firstAttribute="trailing" secondItem="LYG-go-3bT" secondAttribute="trailing" id="dRZ-8j-R3u"/>
                         </constraints>
                     </view>
                     <connections>
